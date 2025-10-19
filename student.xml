@@ -1,0 +1,54 @@
+ <!-- List of student objects -->
+ <students>
+    <!-- object -->
+<student>
+    <Name>Naresh Jampala</Name>
+    <DOB>22-03-1987</DOB>
+    <Age>39</Age>
+    <!-- List of objetct -->
+    <Addresses>
+        <!-- object -->
+        <Address type="permanent">
+        <Door.no>H.No:46-682 f3</Door.no>
+        <street>Budhawarpet</street>
+        <PIN>Pincode:518001</PIN>
+        </Address>
+        <Address type="Current">
+            <Door.No>Flat:106, Sri Durga Og</Door.No>
+            <street>Gatchibowli</street>
+        </Address>
+    </Addresses>
+    <!-- List of string -->
+    <skillset>
+        <skill>Java</skill>
+        <skill>Devops</skill>
+        <skill>cloud</skill>
+    </skillset>
+</student>
+
+<student>
+    <Name>Vinay</Name>
+    <DOB>22-03-1989</DOB>
+    <Age>39</Age>
+    <!-- List of objetct -->
+    <Addresses>
+        <!-- object -->
+        <Address type="permanent">
+        <Door.no>H.No:46-682 f3</Door.no>
+        <street>Budhawarpet</street>
+        <PIN>Pincode:518001</PIN>
+        </Address>
+        <Address type="Current">
+            <Door.No>Flat:106, Manikanta manson</Door.No>
+            <street>Bengalore</street>
+        </Address>
+    </Addresses>
+    <!-- List of string -->
+    <skillset>
+        <skill>Java</skill>
+        <skill>Devops</skill>
+        <skill>cloud</skill>
+    </skillset>
+</student>
+
+</students>

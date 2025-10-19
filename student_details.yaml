@@ -1,0 +1,41 @@
+- name: "Naresh Kumar Chowdary"
+  dob: "22-03-2987"
+  age: "39"
+  addresses: 
+#  object
+- door no: H.no:46-682 f3
+  Street: Budhwarpet
+  City: Kurnool
+  Pin: 518001
+  type: Permanent
+
+- door no: Sri Durga Pg
+  Street: Raidurgam
+  City: Hyd
+  Pin: 518001
+  type: Current
+  skills:
+  - java
+  - Cloud
+  - Devops
+
+  - name: "Naresh Kumar Chowdary"
+    dob: "22-03-2987"
+    age: "39"
+    addresses: 
+#  object
+  - door no: H.no:46-682 f3
+    Street: Budhwarpet
+    City: Kurnool
+    Pin: 518001
+    type: Permanent
+
+- door no: Sri Durga Pg
+  Street: Raidurgam
+  City: Hyd
+  Pin: 518001
+  type: Current 
+  skills:
+  - java
+  - Cloud
+  - Devops

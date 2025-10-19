@@ -1,0 +1,23 @@
+{
+    "name": "Naresh Kumar Chowdary",
+    "dob": "22-0-1987",
+    "addesses": [
+        {
+            "type": "Permanent",
+            "door no": "H.no:46-682f3",
+            "street": "Budhawarpet",
+            "city": "Kurnool",
+            "pin": "518001"
+
+        },
+        {
+            "type": "Current",
+            "door no": "Sri Durga PG",
+            "street": "Gachibowli",
+            "city": "Hyd",
+            "pin": "500001"
+        }
+    ],
+    "skills": ["Devops", "java", "cloud"]
+
+}
