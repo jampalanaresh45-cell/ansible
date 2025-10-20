@@ -1,8 +1,10 @@
 - name: variables from files
   hosts: local
   connection: local
+  vars:
   favcolor: yellow
-  vars_files: 06-course.yaml
+  vars_files: 
+    06-course.yaml
   tasks:
   - name: Print course info
     ansible.builtin.debug:
