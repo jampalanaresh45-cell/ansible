@@ -1,7 +1,6 @@
 - name: variables from files
   hosts: local
   connection: local
-  vars:
   favcolor: yellow
   vars_files: 06-course.yaml
   tasks:
