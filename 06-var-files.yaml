@@ -1,15 +1,12 @@
 - name: variables from files
   hosts: local
   connection: local
+  favcolor: blue
   vars_files: 
     06-course.yaml
   tasks:
   - name: Print course info
     ansible.builtin.debug:
       msg: "Course name is {{ COURSE }}, Duration is {{ DURATION }}, Trainer is {{ Trainer }}"
-
-# - name: print color
-#   vars:
-#    favcolor: blue
-#    ansible.builtin.debug:  
-#       msg: "My favourite color is {{ favcolor:}}" 
+      debug:
+        msg: "My favorite color is {{ favcolor }}"
