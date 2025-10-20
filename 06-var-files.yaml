@@ -7,9 +7,9 @@
   - name: Print course info
     ansible.builtin.debug:
       msg: "Course name is {{ COURSE }}, Duration is {{ DURATION }}, Trainer is {{ Trainer }}"
-      
-- name: print color
-  vars:
-  favcolor: blue
-  ansible.builtin.debug:  
-      msg: "My favourite color is {{ favcolor:}}" 
+
+# - name: print color
+#   vars:
+#    favcolor: blue
+#    ansible.builtin.debug:  
+#       msg: "My favourite color is {{ favcolor:}}" 
