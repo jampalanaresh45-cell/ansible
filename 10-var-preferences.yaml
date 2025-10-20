@@ -1,4 +1,4 @@
-- name: PLAY-01
+- name: vars preference
   hosts: local
   connection: local
   vars:
