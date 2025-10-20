@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-  favcolor: yellow
+  favcolor: blue
   vars_files: 
     06-course.yaml
   tasks:
