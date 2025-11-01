@@ -6,8 +6,8 @@
 
   #### dictopnary = map
     tags:
-    Application: Payment 
-    Environment: dev
+      Application: Payment 
+      Environment: dev
   tasks:
   - name: default variable
     ansible.builtin.debug:
