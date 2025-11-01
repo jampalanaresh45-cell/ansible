@@ -3,6 +3,7 @@
   connection: local
   vars:
     technologies: Devops, Linux, Shell, Ansible ## string
+    name: "Naresh Jampala"
 
   #### dictopnary = map
     tags:
@@ -45,3 +46,7 @@
     ansible.builtin.copy:
       dest: ./student-data.json
       content: "{{ student_details_yaml | to_nice_json }}"
+
+  - name: convert upper case
+    ansible.builtin.debug:
+      msg: "{{ name | upper }}"
