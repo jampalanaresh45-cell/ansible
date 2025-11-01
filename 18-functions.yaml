@@ -13,7 +13,7 @@
     ansible.builtin.debug:
       msg: "Hello, {{ name | default('Naresh') }}"
 
-### String to list
+ ### String to list
 
   - name: convert string to list
     ansible.builtin.debug:
