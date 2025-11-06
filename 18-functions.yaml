@@ -5,6 +5,7 @@
     technologies: Devops, Linux, Shell, Ansible ## string
     name: "Naresh Jampala"
     gmail: NareshJampala@GMAIL.com
+    ipaddress: 345.4329.43209.4332
 
   #### dictopnary = map
     tags:
@@ -55,3 +56,6 @@
   - name: convert lower case
     ansible.builtin.debug:
       msg: " {{ gmail | lower }}"
+
+  - name: check IP is valid or not
+    ansible.builtin.debug: "{{ myvar | ansible.utils.ipv4 }}"
