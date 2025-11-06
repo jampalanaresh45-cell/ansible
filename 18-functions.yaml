@@ -5,7 +5,7 @@
     technologies: Devops, Linux, Shell, Ansible ## string
     name: "Naresh Jampala"
     gmail: NareshJampala@GMAIL.com
-    ipaddress: 345.4329.43209.4332
+    ipaddress: 192.168.0.1
 
   #### dictopnary = map
     tags:
