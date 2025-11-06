@@ -4,6 +4,7 @@
   vars:
     technologies: Devops, Linux, Shell, Ansible ## string
     name: "Naresh Jampala"
+    gmail: NareshJampala@GMAIL.com
 
   #### dictopnary = map
     tags:
